@@ -39,7 +39,7 @@ for value in my_generator():
 #La serie de fibonacci hace referencia a que vamos a obtener un valor sumando los dos anteriores [0 1 1 2 3 5 8 13 ...]
 def fibonacci(limit):
     #inicializar los dos primeros numeros de la secuencia de fibonacci
-    a, b = 0, 1.
+    a, b = 0, 1
     #Continuar generando numeros mientras "a" sea menor que el limite
     while a < limit:
         yield a #Devolver el valor actual de "a" y pausar la ejecucion de la funcion
